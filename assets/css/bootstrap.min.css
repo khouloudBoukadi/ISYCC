@@ -280,6 +280,19 @@ img {
 .img-circle {
 	border-radius: 50%
 }
+
+.circle-img {
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+}
+
+.circle-img img {
+  height: 100%;
+  transform: translateX(-50%);
+  margin-left: 50%;
+}
+
 hr {
 	margin-top: 20px;
 	margin-bottom: 20px;
